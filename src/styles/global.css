@@ -1,4 +1,9 @@
 body {
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
+	background-color: black;
+}
+@font-face {
+	font-family: BenguiatBold;
+	src: url('@styles/BenguiatBold.ttf');
 }

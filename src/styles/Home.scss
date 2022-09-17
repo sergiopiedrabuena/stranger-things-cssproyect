@@ -6,3 +6,66 @@
 	display: grid;
 	place-items: center;
 }
+
+.characterContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.character {
+	width: 250px;
+}
+
+#lucas {
+	z-index: 1;
+	margin-left: -10px;
+	margin-right: -140px;
+	filter: grayscale(100%);
+}
+
+#dustin {
+	z-index: 2;
+	margin-right: -145px;
+	filter: grayscale(100%);
+}
+
+#eleven {
+	z-index: 3;
+	margin-right: -140px;
+}
+
+#will {
+	z-index: 2;
+	margin-right: -10px;
+	filter: grayscale(100%);
+}
+
+#mainTitle {
+	font-family: BenguiatBold;
+	color: darkred;
+	text-transform: uppercase;
+	position: absolute;
+	z-index: 4;
+	text-align: center;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#verticalBar {
+	position: absolute;
+	height: 280px;
+	width: 10px;
+	background-color: darkred;
+	border-radius: 30%;
+	z-index: 4;
+	left: 40px;
+	box-shadow: inset 0 0 18px red,
+		inset -6px 0 18px darkred,
+		inset -6px 0 30px darkred,
+		0 0 18px red,
+		4px 0 18px darkred;
+}

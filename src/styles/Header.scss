@@ -1,7 +1,7 @@
 @import 'vars';
 
 .navbar {
-	display: flex;
+	display: none;
 }
 
 .navbar ul {
@@ -30,6 +30,7 @@
 	.navbar{
 		justify-content: center;
 		align-items: center;
+		
 	}
 	.navbar ul {
 		display: flex;
