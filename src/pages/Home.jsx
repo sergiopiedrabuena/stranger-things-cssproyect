@@ -14,10 +14,26 @@ const Home = () => {
 				<img className='character' id='dustin' src={Dustin}></img>
 				<img className='character' id='eleven' src={Eleven}></img>
 				<img className='character' id='will' src={Will}></img>
-				<p id='mainTitle'>stranger<br/>things</p>
+				<div id='mainTitleContainer'>
+					<p className='mainTitle'>s</p>
+					<p className='mainTitle'>t</p>
+					<p className='mainTitle'>ran</p>
+					<p className='mainTitle'>g</p>
+					<p className='mainTitle'>e</p>
+					<p className='mainTitle'>r</p>
+					<p className='mainTitle'>t</p>
+					<p className='mainTitle'>h</p>
+					<p className='mainTitle'>i</p>
+					<p className='mainTitle'>n</p>
+					<p className='mainTitle'>g</p>
+					<p className='mainTitle'>s</p>
+					<div className='underline'></div>
+					<div className='underline'></div>
+					<div className='underline'></div>
+				</div>
 				<div id='verticalBar'></div>
 			</div>
-			
+
 		</div>
 
 	);

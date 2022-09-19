@@ -12,6 +12,10 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	background: url('@images/main-background.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom center;
 }
 
 .character {
@@ -42,30 +46,106 @@
 	filter: grayscale(100%);
 }
 
-#mainTitle {
-	font-family: BenguiatBold;
-	color: darkred;
-	text-transform: uppercase;
+#mainTitleContainer {
 	position: absolute;
 	z-index: 4;
-	text-align: center;
-	font-size: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	width: 555px;
+	height: 335.56px;
+}
+
+.mainTitle {
+	font-family: BenguiatBold;
+	color: var(--red);
+	text-transform: uppercase;
+	position: absolute;
+	font-size: 60px;
+	animation: textMove 1.8s ease-out;
+	/*filter: grayscale(100%) opacity(45%);*/
+}
+
+.mainTitle:nth-child(1) {
+	left: 30px;
+	top: 45px;
+	font-size: 80px;
+}
+
+.mainTitle:nth-child(2) {
+	left: 155px;
+	top: 130px;
+}
+.mainTitle:nth-child(3) {
+	left: 85px;
+	bottom: 170px;
+}
+.mainTitle:nth-child(4) {
+	left: 375px;
+	bottom: 170px;
+}
+.mainTitle:nth-child(5) {
+	left: 495px;
+	top: 15px;
+}
+.mainTitle:nth-child(6) {
+	left: 520px;
+	top: 90px;
+	font-size: 80px;
+}
+.mainTitle:nth-child(7) {
+	left: 30px;
+	top: 170px;
+}.mainTitle:nth-child(8) {
+	left: 180px;
+	top: 200px;
+}
+.mainTitle:nth-child(9) {
+	left: 250px;
+	top: 100px;
+}
+.mainTitle:nth-child(10) {
+	left: 280px;
+	top: 190px;
+}
+.mainTitle:nth-child(11) {
+	left: 370px;
+	top: 185px;
+}
+.mainTitle:nth-child(12) {
+	left: 480px;
+	top: 185px;
+}
+.underline{
+	width: 5px;
+	height: 30px;
+	position: absolute;
+	z-index: 4;
+	color: var(--red);
 }
 
 #verticalBar {
 	position: absolute;
 	height: 280px;
-	width: 10px;
-	background-color: darkred;
-	border-radius: 30%;
+	width: 7px;
+	background-color: white;
 	z-index: 4;
 	left: 40px;
-	box-shadow: inset 0 0 18px red,
-		inset -6px 0 18px darkred,
-		inset -6px 0 30px darkred,
-		0 0 18px red,
-		4px 0 18px darkred;
+	box-shadow: 0 0 20px var(--red),
+		0 0 20px var(--red),
+		0 0 20px var(--red),
+		0 0 20px var(--red),
+		0 0 30px red,
+		0 0 30px red,
+		0 0 30px red;
+	animation: barMove 1.5s ease-out;
+}
+
+@keyframes barMove {
+	0% {
+		left: 540px;
+		opacity: 0.9;
+	}
+
+	100% {
+		left: 40px;
+		opacity: 1;
+	}
 }
