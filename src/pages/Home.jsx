@@ -27,11 +27,14 @@ const Home = () => {
 					<p className='mainTitle'>n</p>
 					<p className='mainTitle'>g</p>
 					<p className='mainTitle'>s</p>
-					<div className='underline'></div>
-					<div className='underline'></div>
-					<div className='underline'></div>
+					<div className='underline-container'>
+						<div id='underlineOne' className='underline'></div>
+						<div id='underlineTwo' className='underline'></div>
+						<div id='underlineThree' className='underline'></div>
+					</div>
+					<div id='verticalBar'></div>
 				</div>
-				<div id='verticalBar'></div>
+				
 			</div>
 
 		</div>
