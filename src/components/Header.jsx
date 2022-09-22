@@ -7,19 +7,16 @@ const Header = () => {
 			<div className="navbar">
 				<ul>
 					<li>
-						<a href="/">Página principal</a>
+						<a href="/">hawkings</a>
 					</li>
 					<li>
-						<a href="/primero">Primera</a>
+						<a href="/primero">personajes</a>
 					</li>
 					<li>
-						<a href="/segundo">Segunda</a>
+						<a href="/segundo">temporadas</a>
 					</li>
 					<li>
-						<a href="/tercero">Tercera</a>
-					</li>
-					<li>
-						<a href="/cualquierlinknovalido">Prueba NotFound</a>
+						<a href="/tercero">playlist</a>
 					</li>
 				</ul>
 			</div>

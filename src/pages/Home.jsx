@@ -1,15 +1,20 @@
 import React from 'react';
 import '@styles/Home.scss';
+import $ from 'jquery';
 
 import Lucas from '@images/lucas.png';
 import Dustin from '@images/dustin.png';
 import Eleven from '@images/eleven.png';
 import Will from '@images/will.png';
+import MainBackground from '@images/main-background.jpg'
 
 const Home = () => {
 	return (
 		<div className='Home'>
+
 			<div className='characterContainer'>
+				<div id='mainBackgroundContainer'><img id='mainBackground' src={MainBackground} />
+				</div>
 				<img className='character' id='lucas' src={Lucas}></img>
 				<img className='character' id='dustin' src={Dustin}></img>
 				<img className='character' id='eleven' src={Eleven}></img>
@@ -34,7 +39,7 @@ const Home = () => {
 					</div>
 					<div id='verticalBar'></div>
 				</div>
-				
+
 			</div>
 
 		</div>
