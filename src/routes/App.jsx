@@ -1,5 +1,7 @@
-import React from 'react';
+import React , { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import $ from 'jquery';
+import 'jquery-ui-dist/jquery-ui';
 import Layout from '@containers/Layout';
 import Home from '@pages/Home';
 import Primero from '@pages/Primero';
@@ -10,6 +12,20 @@ import AppContext from '../context/AppContext';
 import '@styles/global.css';
 
 const App = () => {
+	useEffect(() => {
+		setTimeout(
+			function() 
+			{
+				$('#lucas').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
+				$('#will').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
+				$('#dustin').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
+				$('#mainBackground').css({'height':'88vh','-webkit-transition':'all 1.5s ease'});
+				$('#eleven').css({'margin-right':'-80%', 'filter' : 'opacity(90%','-webkit-transition':'all 2s ease'});
+				$('#verticalBar').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
+				$('#mainTitleContainer').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
+			}, 2500);		
+    }, []);
+
 	return (
 		<AppContext.Provider>
 			<BrowserRouter>
