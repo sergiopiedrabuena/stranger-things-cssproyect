@@ -9,12 +9,11 @@ const Hawkins = () => {
 			<div id='mainModal'>
 				<div className='modalTitle' id='modalTitle'>
 					<p>welcome to <span>hawkings</span></p>
-					<p id='indiana'>indiana</p>
 				</div>
 				<div id='modalText'>
-					<p>Y la respuesta es que no, Hawkins no existe. El pueblo ficticio de Indiana donde transcurren todos los hechos se graba en varios lugares cercanos a Atlanta, la gran mayoría en localizaciones que se encuentran en los pueblos de Jackson, East Point y Stockbridge.
+					<p id='modalTextOne'>Y la respuesta es que no, Hawkins no existe. El pueblo ficticio de Indiana donde transcurren todos los hechos se graba en varios lugares cercanos a Atlanta, la gran mayoría en localizaciones que se encuentran en los pueblos de Jackson, East Point y Stockbridge.
 					</p>
-					<p>Hawkins es una pequeña ciudad del medio oeste de los Estados Unidos de América ubicada en el condado de Roane en el estado de Indiana. Tiene una población estimada de 10.000 a 15.000.
+					<p id='modalTextTwo'>Hawkins es una pequeña ciudad del medio oeste de los Estados Unidos de América ubicada en el condado de Roane en el estado de Indiana. Tiene una población estimada de 10.000 a 15.000.
 					</p>
 				</div>
 			</div>

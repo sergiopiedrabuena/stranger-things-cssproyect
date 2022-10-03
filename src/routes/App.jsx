@@ -20,7 +20,7 @@ const App = () => {
 				$('#will').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
 				$('#dustin').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
 				$('#mainBackground').css({'height':'88vh','-webkit-transition':'all 1.5s ease'});
-				$('#eleven').css({'margin-right':'-80%', 'filter' : 'opacity(90%','-webkit-transition':'all 2s ease'});
+				$('#eleven').css({'margin-right':'-87%', 'filter' : 'opacity(90%','-webkit-transition':'all 2s ease'});
 				$('#verticalBar').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
 				$('#mainTitleContainer').css({'opacity':'0','-webkit-transition':'all 1.3s ease'});
 			}, 2500);		

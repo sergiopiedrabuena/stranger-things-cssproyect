@@ -1,0 +1,29 @@
+@import 'vars';
+
+.NameCharacter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 60%;
+    margin-left: 50px;
+}
+.NameCharacter p{
+    color: aliceblue;
+    text-shadow: var(--text-shadow-white);
+    font-family: 'Reem Kufi Fun', sans-serif; 
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.NameCharacter p:nth-child(2n){
+    padding-top: 12vh;
+}
+
+@media (max-width:640px){
+    .NameCharacter p:nth-child(2n){
+        margin-left: -30px;
+    }
+    .NameCharacter p{        
+    font-size: 18px;
+    }
+}

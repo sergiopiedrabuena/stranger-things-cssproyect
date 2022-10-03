@@ -26,6 +26,8 @@
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
+	position: absolute;
+    bottom: 0;
 }
 #mainTitleContainer {
 	position: absolute;
@@ -46,6 +48,9 @@
 	position: absolute;
 	z-index: 4;
 	background-color: var(--red);
+}
+.character{	
+	margin-bottom: auto;
 }
 #lucas, #dustin, #will{
 	animation: characterFilter 4.5s ease-out;
@@ -69,7 +74,7 @@
 		100%{background-size: cover;}
 	}
 	.character {
-		width: 230px;		
+		width: 65vh;		
 	}
 	#lucas {
 		z-index: 1;
