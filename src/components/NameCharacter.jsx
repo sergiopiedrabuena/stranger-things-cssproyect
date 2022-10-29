@@ -3,7 +3,7 @@ import '@styles/NameCharacter.scss'
 
 const NameCharacter = () => {
       return (
-            <div id='NameCharacter' className="NameCharacter">s
+            <div id='NameCharacter' className="NameCharacter">
                   <p>eleven</p>
                   <p>mike</p>
                   <p>max</p>

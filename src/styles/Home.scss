@@ -62,6 +62,7 @@
 	0%{filter: grayscale(100%);}
 	100%{filter: grayscale(0%);}
 }
+
 @media (min-width:480px) {
 	.characterContainer {
 		background-size: 100% 200px;
@@ -77,39 +78,39 @@
 		width: 65vh;		
 	}
 	#lucas {
+		width: 65vh;
 		z-index: 1;
-		margin-left: -10px;
-		margin-right: -140px;
+		margin-left: -160px;
+		margin-right: -220px;
 	}
 	#dustin {
 		z-index: 2;
-		margin-right: -145px;
+		margin-right: -190px;
 	}
 	#eleven {
 		z-index: 3;
-		margin-right: -140px;
+		margin-right: -210px;
 	}
 	#will {
 		z-index: 2;
-		margin-right: -10px;
+		margin-right: -180px;
 	}
 	#mainTitleContainer {
-		width: 555px;
+		width: 455px;
 		height: 335.56px;
 	}
 
 	.mainTitle {
-		font-size: 60px;
+		font-size: 50px;
 		text-shadow: 2px 0px 0px darkred, 3px 2px 0px rgba(77,0,38,0.5), 9px 2px 9px rgba(77,25,0,0.5), 6px 0 15px red;
 	}
 
 	.mainTitle:nth-child(1) {
 		top: 30px;
-		left: 95px;
-		font-size: 80px;
+		left: 65px;
+		font-size:  65px;
 		animation: textMove1 2s ease-in-out;
 	}
-
 	@keyframes textMove1 {
 		0% {
 			filter: grayscale(100%) opacity(45%);
@@ -120,16 +121,15 @@
 		100% {
 			filter: grayscale(0%) opacity(100%);
 			top: 30px;
-			left: 95px;
+			left: 65px;
 		}
 	}
 
 	.mainTitle:nth-child(2) {
-		left: 150px;
+		left: 110px;
 		top: 55px;
 		animation: textMove2 2s ease-in-out;
 	}
-
 	@keyframes textMove2 {
 		0% {
 			filter: grayscale(100%) opacity(45%);
@@ -139,18 +139,17 @@
 
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 150px;
+			left: 110px;
 			top: 55px;
 		}
 	}
 
 	.mainTitle:nth-child(3) {
-		left: 195px;
+		left: 150px;
 		top: 55px;
-		letter-spacing:-10px;
+		letter-spacing:-5px;
 		animation: textMove3 2s ease-in-out;
 	}
-
 	@keyframes textMove3 {
 		0% {
 			filter: grayscale(100%) opacity(45%);
@@ -159,13 +158,13 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 195px;
+			left: 150px;
 			top: 55px;
 		}
 	}
 
 	.mainTitle:nth-child(4) {
-		left: 330px;
+		left: 270px;
 		top: 55px;		
 		animation: textMove4 2s ease-in-out;
 	}
@@ -177,51 +176,50 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 330px;
+			left: 270px;
 			top: 55px;
 		}
 	}
 
 	.mainTitle:nth-child(5) {
-		left: 385px;
+		left: 320px;
 		top: 55px;		
 		animation: textMove5 2s ease-in-out;
 	}
 	@keyframes textMove5 {
 		0% {
 			filter: grayscale(100%) opacity(45%);
-			left: 495px;
-			top: 15px;
+			left: 300px;
+			top: 30px;
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 385px;
+			left: 320px;
 			top: 55px;	
 		}
 	}
 	.mainTitle:nth-child(6) {
-		left: 430px;
+		left: 355px;
 		top: 30px;
-		font-size:80px;
+		font-size: 65px;
 		animation: textMove6 2s ease-in-out;
 	}
 	@keyframes textMove6 {
 		0% {
 			filter: grayscale(100%) opacity(45%);
-			left: 520px;
+			left: 380px;
 			top: 90px;
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 430px;
+			left: 355px;
 			top: 30px;
 		}
 	}
 
 	.mainTitle:nth-child(7) {
-		left: 160px;
+		left: 120px;
 		top: 100px;	
-		font-size: 70px;	
 		animation: textMove7 2s ease-in-out;
 	}
 	@keyframes textMove7 {
@@ -232,14 +230,14 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 160px;
+			left: 120px;
 			top: 100px;
 		}
 	}
 
 	.mainTitle:nth-child(8) {
-		left: 210px;
-		top: 110px;		
+		left: 160px;
+		top: 100px;		
 		animation: textMove8 2s ease-in-out;
 	}
 	@keyframes textMove8 {
@@ -250,14 +248,14 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 210px;
-			top: 110px;
+			left: 160px;
+			top: 100px;
 		}
 	}
 
 	.mainTitle:nth-child(9) {
-		left: 265px;
-		top: 110px;
+		left: 210px;
+		top: 100px;
 		animation: textMove9 2s ease-in-out;
 	}
 	@keyframes textMove9 {
@@ -268,14 +266,14 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 265px;
-			top: 110px;
+			left: 210px;
+			top: 100px;
 		}
 	}
 
 	.mainTitle:nth-child(10) {
-		left: 290px;
-		top: 110px;		
+		left: 235px;
+		top: 100px;		
 		animation: textMove10 2s ease-in-out;
 	}
 	@keyframes textMove10 {
@@ -286,14 +284,14 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 290px;
-			top: 110px;
+			left: 235px;
+			top: 100px;
 		}
 	}
 
 	.mainTitle:nth-child(11) {
-		left: 335px;
-		top: 110px;
+		left: 275px;
+		top: 100px;
 		animation: textMove11 2s ease-in-out;
 	}
 	@keyframes textMove11 {
@@ -304,26 +302,26 @@
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left: 335px;
-			top: 110px;
+			left: 275px;
+			top: 100px;
 		}
 	}
 
 	.mainTitle:nth-child(12) {
-		left:390px;
-		top: 110px;
+		left:320px;
+		top: 100px;
 		animation: textMove12 2s ease-in-out;
 	}
 	@keyframes textMove12 {
 		0% {
 			filter: grayscale(100%) opacity(45%);
-			left: 480px;
+			left: 380px;
 			top: 185px;
 		}
 		100% {
 			filter: grayscale(0%) opacity(100%);
-			left:390px;
-			top: 110px;
+			left:320px;
+			top: 100px;
 		}
 	}
 
@@ -343,19 +341,19 @@
 	}
 
 	#underlineOne {
-		width: 400px;
-		top: 110px;
-		left: 100px;
+		width: 340px;
+		top: 100px;
+		left: 70px;
 	}
 	#underlineTwo {
-		width: 55px;
-		top: 200px;
-		left: 100px;
+		width: 45px;
+		top: 170px;
+		left: 70px;
 	}
 	#underlineThree {
-		width: 60px;
-		top: 200px;
-		left:440px;
+		width: 50px;
+		top: 170px;
+		left:360px;
 	}
 
 	#verticalBar {
@@ -364,7 +362,7 @@
 		width: 7px;
 		background-color: white;
 		z-index: 4;
-		left: 10%;
+		left: 5%;
 		box-shadow: 0 0 20px var(--red),
 			0 0 20px var(--red),
 			0 0 20px var(--red),
@@ -382,11 +380,12 @@
 		}
 
 		100% {
-			left: 10%;
+			left: 5%;
 			opacity: 1;
 		}
 	}
 }
+
 @media (min-width:640px) {
 	.character {
 		width: 65vh;
